@@ -1,6 +1,4 @@
 # Hi there 
 My name is Skaletti, nice to meet you!!! 
 
-![Komi](https://user-images.githubusercontent.com/98595208/171032340-4b4e70dd-69b1-4389-9230-23807c6961bd.gif)
-
 ![pochita-chainsaw-man](https://user-images.githubusercontent.com/98595208/196624352-f5a302aa-852b-4def-a133-dcd9aa609b3a.gif)
