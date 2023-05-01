@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T12:48:38.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="Xx4gFNSLI5TGe5NyuAdM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T14:37:52.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LTGim4riHDEzw64dC-dB" version="21.2.3" type="github">
   <diagram name="Страница 1" id="ICNBGpdsGqSXbGF_ZJl1">
-    <mxGraphModel>
+    <mxGraphModel dx="714" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;НАЧАЛО&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-4" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#E4FDE1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vI_GEokMrBeK6aW8ISE-2" target="4vI_GEokMrBeK6aW8ISE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="210" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-5" value="&lt;font size=&quot;1&quot;&gt;ПОДКЛЮЧЕНИЕ ПОРТА,&lt;br&gt;НАСТРОЙКА ПИНОВ ДЛЯ СЕРВОМОТОРА И РЕЛЕ, НАСТРОЙКА ЛОКАЛЬНОЙ СЕТИ WiFi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-7" value="&lt;font size=&quot;1&quot;&gt;ПОДКЛЮЧЕНИЕ ENDPOINT`S,&lt;br&gt;НАСТРОЙКА CORS,&lt;br&gt;ЗАПУСК СЕРВЕРА&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-8" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#E4FDE1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vI_GEokMrBeK6aW8ISE-5" target="4vI_GEokMrBeK6aW8ISE-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="199.66" as="sourcePoint" />
+            <mxPoint x="474" y="199.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-9" value="&lt;font size=&quot;1&quot;&gt;КАЛИБРОВКА СЕРВОМОТОРА И ЗАКРЫТИЕ ЗАМКА,&lt;br&gt;ВЫХОД В ЦИКЛ&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-10" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#E4FDE1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vI_GEokMrBeK6aW8ISE-7" target="4vI_GEokMrBeK6aW8ISE-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="590" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-11" value="&lt;font size=&quot;1&quot;&gt;ОБРАБОТКА ВХОДЯЩИХ ЗАПРОСОВ&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#001DBC;fontColor=#ffffff;fillColor=#0050ef;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-12" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#E4FDE1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vI_GEokMrBeK6aW8ISE-9" target="4vI_GEokMrBeK6aW8ISE-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-13" value="&lt;font size=&quot;1&quot;&gt;ЕСЛИ&amp;nbsp;&lt;br&gt;handleHealthcheck&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-14" value="&lt;font size=&quot;1&quot;&gt;ОТПРАВКА ОТВЕТА СО&amp;nbsp; СТАТУСОМ 200&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-15" value="&lt;font size=&quot;1&quot;&gt;ДЕАКТИВАЦИЯ ЗАМКА&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-16" value="&lt;font size=&quot;1&quot;&gt;ЕСЛИ&amp;nbsp;&lt;br&gt;handleDoorStateChange&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;" vertex="1" parent="1">
+          <mxGeometry x="245" y="400" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vI_GEokMrBeK6aW8ISE-18" value="&lt;font size=&quot;1&quot;&gt;ОТКРЫТИЕ ДВЕРИ,&lt;br&gt;В ЦИКЛЕ FOR ВЫСТАВЛЯЕТСЯ ЗНАЧЕНИЕ ГРАДУСОВ СЕРВОМОТОРА&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
